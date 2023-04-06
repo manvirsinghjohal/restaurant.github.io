@@ -1,0 +1,12 @@
+.one{border: solid 1px}
+.n{margin:10px 0 31px 20px; font-size:30px  }
+.tt{margin:-58px 0px 16px 356px;}
+.ll{margin: 0 50px 0 50px; font-size: 25px}
+.img1{width:inherit; height: 437px;}
+.pp{text-align: center; font-size: 50px }
+.p1{font-size:35px;text-align: justify;}
+.pm{text-align: center; font-family:fantasy;font-size:35px;}
+.imgm{    height: 200px;    width: 420px;}
+footer{text-align: center;}
+@media (min-width:375px) and (max-width:690px)
+{.n{text-align: center;margin: 5px 0px -6px 0px; } .ll{margin: 0 9px 0 17px} .tt{margin:0px 0 0 0px} .imgt{width: 352px; height: 215px; }  .imgm{width: 355px;} ,p1{font-size: 25px;}}
