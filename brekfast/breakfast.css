@@ -1,3 +1,11 @@
-.img1 {width: 400px;height: 348px;margin-top: 50px;} p{text-align: center;} .one{border: solid 1px}
-.n{margin:10px 0 31px 20px; font-size:30px  }
-.ll{margin: 0 50px 0 50px; font-size: 25px}
+.img1 {width: -webkit-fill-available; height: 348px;margin-top: 50px;} p{text-align: center;} .one{border: solid 1px}.n{margin:10px 0 31px 20px; font-size:30px  }.ll{margin: 0 50px 0 50px; font-size: 25px} .b1{text-align: center;}
+@media (min-width:280px) and (max-width:653px)
+{.n{margin: 0; font-size: 25px}.ll{margin:  0 10px 0 20px; font-size: 10px}}
+@media (min-width:375px) and (max-width:667px)
+{.ll {margin: 0 30px 0 30px;font-size: 14px;}}
+@media (min-width:820px) and (max-width:1180px)
+{.n{font-size: 45px; margin: 0} .ll{margin:0 80px 0 90px}}
+@media (min-width:768px) and (max-width:1024px)
+{.n{font-size: 64px; margin: 0;}.ll{margin: 0 80px 0 80px;} p{font-size: 20px;}}
+@media (min-width:540px) and (max-width:720px)
+{.ll{margin: 0 53px 0 61px;}}

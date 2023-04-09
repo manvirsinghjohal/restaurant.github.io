@@ -1,12 +1,120 @@
 .one{border: solid 1px}
-.n{margin:10px 0 31px 20px; font-size:30px  }
-.tt{margin:-58px 0px 16px 356px;}
-.ll{margin: 0 50px 0 50px; font-size: 25px}
-.img1{width:inherit; height: 437px;}
-.pp{text-align: center; font-size: 50px }
+.n{margin:10px 0 31px 20px; font-size:39px; color: firebrick; }
+.tt{margin:-80px 0px 16px 356px;}
+.ll{margin: 0 60px 0 60px; font-size: 25px}
+.img1{width:-webkit-fill-available; height: 437px;}
+.pp{text-align: center; font-size: 50px; color: tomato; font-style: italic;}
 .p1{font-size:35px;text-align: justify;}
 .pm{text-align: center; font-family:fantasy;font-size:35px;}
-.imgm{    height: 200px;    width: 420px;}
+.imgm{    height: 200px;    width:-webkit-fill-available;}
 footer{text-align: center;}
-@media (min-width:375px) and (max-width:690px)
-{.n{text-align: center;margin: 5px 0px -6px 0px; } .ll{margin: 0 9px 0 17px} .tt{margin:0px 0 0 0px} .imgt{width: 352px; height: 215px; }  .imgm{width: 355px;} ,p1{font-size: 25px;}}
+.imgt{width: -webkit-fill-available;}
+.img3{width: -webkit-fill-available;}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+
+@keyframes fade {
+  from {opacity:4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+@media (min-width:280px) and (max-width:653px){
+    .n{font-size: 28px; margin: 0;} .tt{margin: 0;}.ll{margin: 0 13px 0 14px; font-size: 14px} .pp{font-size:22px;} .p1{font-size: 20px;}}
+@media (min-width:375px) and (max-width:677px)
+{.n{text-align: center;margin: 5px 0px -6px 0px; } .ll{margin: 0 9px 0 17px} .tt{margin:0px 0 0 0px} ,p1{font-size: 25px;}}
+@media (min-width:414px) and (max-width:896px){
+    .ll{font-size:21px; margin: 0 27px;} .p1{font-size: 22px}}
+@media (min-width:360px) and (max-width:740px)
+{.tt{margin: 0 0 0 0;}.ll{margin: 0 25px 0 25px; font-size: 17px;} .img1{height: 300px;}}
+@media (min-width:820px) and (max-width:1180px)
+{.tt{margin: 0 0 0 0;}.ll{margin: 0 46px 0 80px; font-size:35px;} .p1{font-size:27px;}.n{text-align: center;margin: 0;}}
+@media (min-width:540px) and (max-width:720px){
+    .ll{margin: 0 42px 0 51px; font-size: 22px;}}
+@media (min-width:800px) and (max-width:1280px){
+    .n{margin-bottom: 55px;} .p1{font-size:34px;} }
+@media (min-width:820px) and (max-width:1180px)
+{.tt{margin: 0 0 0 0;}.ll{margin: 0 46px 0 80px; font-size:35px;} .p1{font-size:27px;}.n{text-align: center;margin: 0;}}
+@media (min-width:768px) and (max-width:1024px)
+{.p1{font-size:20px;} .n{text-align: center;margin-bottom:55px; font-size: 55px;} .tt{margin: -55px 0 0px 130px} .ll{font-size:30px} }
+@media (min-width:912px) and (max-width:1368px){ 
+    .p1{font-size: 25px;} .imgt{height: 300px;}}
+

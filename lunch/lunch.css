@@ -1,9 +1,17 @@
 .img1 {
-    width: 396px;
-    height: 201px;
-    margin-top: 50px;
+    width:-webkit-fill-available;height: 201px; margin-top: 50px;
 }
 p{text-align: center;font-size: 20px;font-style: italic;}
 .one{border: solid 1px}
-.n{margin:10px 0 31px 20px; font-size:30px  }
-.ll{margin: 0 50px 0 50px; font-size: 25px}
+.n{text-align: center; font-size:30px  }
+.ll{margin: 0 155px 0 155px; font-size: 25px}
+@media (min-width:375px) and (max-width:677px)
+{.ll{margin:0 15px 0 15px; text-align: center;}}
+@media (min-width:360px) and (max-width:740px)
+{.ll{margin: 0 15px 0 10px;}}
+@media (min-width:820px) and (max-width:1180px)
+{.ll{margin:0 80px 0 90px; }}
+@media (min-width:768px) and (max-width:1024px)
+{.ll{margin:0 90px 0 70px;}.n{font-size: 50px;}}
+@media (min-width:280px) and (max-width:653px)
+{.ll{margin: 0 10px 010px; font-size:16px; }}

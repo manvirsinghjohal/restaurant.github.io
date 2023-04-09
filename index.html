@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-    
+<html lang="en">  
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +13,7 @@
   <div class="row">
    <div class="col-sm-12">
     <div class="one">
-      <p class="n">Manvir's Resturant</p>
+      <p class="n">Manveer's Resturant</p>
        <div class="tt">
         <a class="ll" href="#">home</a>
          <a href="https://www.google.com/maps/place/Ambala+Jattan,+Punjab+144207/@31.7213684,75.7055318,17z/data=!3m1!4b1!4m6!3m5!1s0x391ba806b3e19d81:0xffe66de997ea62ab!8m2!3d31.7216605!4d75.7066187!16s%2Fm%2F0cm9qsc" class="ll">location</a>
@@ -22,13 +21,68 @@
        </div>
     </div>
    </div>
-  </div>
-    <div class="row">
-     <div class="col-md-12">
-        <img src="istockphoto3.jpg" class="img1">
      </div>
     </div>
+       <div class="slideshow-container">
+
+<div class="mySlides">
+  <div class="numbertext">1 / 3</div>
+  <img src="istockphoto-1395507586-170667a.jpg" style="width:100%; margin-top: 10px;">
+  <div class="text">Caption Text</div>
 </div>
+
+<div class="mySlides">
+  <div class="numbertext">2 / 3</div>
+  <img src="istockphoto.jpg" style="width:100%; margin-top: 10px; ">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">3 / 3</div>
+  <img src="istockphoto1.jpg" style="width:100%; margin-top: 10px;">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
   <div>
     <div class="container-fluid">
      <div class="row">
@@ -53,11 +107,11 @@
          </div>
         <div class="col-md-4">
          <img class="imgm" src="download%20lunch(1).jpg">
-            <a href="F:/brackets/resturat%201/lunch/lunch.html"><p class="pm">LUNCH</p></a>
+            <a href="lunch/lunch.html"><p class="pm">LUNCH</p></a>
           </div>
          <div class="col-md-4">
           <img class="imgm" src="download%20(2).jpg">
-             <a href="F:/brackets/resturat%201/lunch/lunch.html"><p class="pm">DINNER</p></a>
+             <a href="lunch/lunch.html"><p class="pm">DINNER</p></a>
          </div>
         </div>
     </div>
